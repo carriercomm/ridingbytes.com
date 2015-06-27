@@ -1,7 +1,7 @@
 baseurl = "http://ridingbytes.com/"
 languageCode = "en-us"
 title = "Riding Bytes"
-theme = "hugo-creative-theme"
+theme = "creative"
 
 [params]
 
