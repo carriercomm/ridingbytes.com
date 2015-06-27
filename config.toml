@@ -1,0 +1,84 @@
+baseurl = "http://ridingbytes.com/"
+languageCode = "en-us"
+title = "Riding Bytes"
+theme = "hugo-creative-theme"
+
+[params]
+
+name = "Ramon Bartl"
+description = ""
+
+
+# Navigation
+[params.navigation]
+    brand = "Riding Bytes"
+
+#[params.navigation.links]
+#    about     = "About"
+#    services  = "Services"
+#    portfolio = "Portfolio"
+#    contact   = "Contact"
+
+# Hero section
+[params.hero]
+    # To change the background of the hero section, replace the 'header.jpg' at './static/img' with your own.
+    slogan     = "Riding Bytes"
+    subtitle   = "International Coding Company"
+    buttonText = "Find out more"
+
+
+# About section
+[params.about]
+    headline    = "Coming Soon"
+    description = ""
+
+
+# Service section
+[params.services]
+    headline = "At your service"
+
+    [[params.services.list]]
+        icon = "fa-diamond"
+        title = "Consulting"
+        description = ""
+
+    [[params.services.list]]
+        icon = "fa-paper-plane"
+        title = "Development"
+        description = ""
+
+    [[params.services.list]]
+        icon = "fa-graduation-cap"
+        title = "More than 10 Years Experience"
+        description = ""
+
+    [[params.services.list]]
+        icon = "fa-heart"
+        title = "Made with Love"
+        description = ""
+
+
+# Portfolio modals
+[params.portfolio.modal]
+    client = "Client"
+    date = "Date"
+    category = "Category"
+    buttonText = "Close"
+
+# Aside section
+[params.aside]
+    headline = "Get the Creative Theme for Hugo"
+
+    [params.aside.button]
+        text = "Download now"
+        link = "//github.com/digitalcraftsman/hugo-creative-theme"
+
+# Contact section
+[params.contact]
+    headline = "Let's Get In Touch!"
+    description = "Ready to start your next project with us? That's great!"
+    phone = "123-456-6789"
+    email = "developer@ridingbytes.com"
+    linkedin = "ramonski"
+    github = "ridingbytes"
+    twitter = "ridingbytes"
