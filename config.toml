@@ -157,7 +157,7 @@ theme = "hugo-agency-theme"
     # Contact section
     [params.contact]
         title = "Contact us"
-        subtitle  = ""
+        subtitle  = "A confirmation Email will be sent to you to avoid Spam"
         buttonText = "Send message"
 
         # 'warning' defines error messages for invalid inputs
