@@ -118,7 +118,7 @@ theme = "hugo-agency-theme"
             name = "Ramon Bartl"
             position = "Owner & Coder"
             social = [
-                ["fa-twitter", "https://twitter.com/ramonski"],
+                ["fa-twitter", "https://twitter.com/ramonbartl"],
                 ["fa-linkedin", "https://www.linkedin.com/in/ramonski"],
                 ["fa-github", "https://github.com/ramonski"]
             ]
