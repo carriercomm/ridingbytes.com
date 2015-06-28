@@ -196,7 +196,7 @@ theme = "hugo-agency-theme"
 
         [[params.footer.quicklinks]]
             text = "Imprint"
-            link = "http://www.ridingbytes.com/imprint.html"
+            link = "http://www.ridingbytes.com/imprint/index.html"
 
         #[[params.footer.quicklinks]]
         #    text = "Terms of Use"
