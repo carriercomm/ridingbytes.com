@@ -1,84 +1,203 @@
-baseurl = "http://ridingbytes.com/"
+# Site settings
+baseurl = "http://replace-this-with-your-hugo-site.com/"
 languageCode = "en-us"
-title = "Riding Bytes"
-theme = "creative"
+title = "Hugo Agency Theme"
+theme = "hugo-agency-theme"
+
 
 [params]
 
-name = "Ramon Bartl"
-description = ""
+    # You can use Markdown syntax for urls [text](//url.to/source) for
+    # most longer texts.
+    #
+    # All icons using Fontawesome's icon font. Look at fortawesome.github.io/Font-Awesome/icons/
+    # for more icons. The icons are represented by their corresponding
+    # CSS class.
 
+    # To provide some metadata for search engines feel free to add a few
+    # information about you and your website.
+    name = "Ramon Bartl"
+    description = "Riding Bytes UG (haftungsbeschränkt)"
 
-# Navigation
-[params.navigation]
-    brand = "Riding Bytes"
-
-#[params.navigation.links]
-#    about     = "About"
-#    services  = "Services"
-#    portfolio = "Portfolio"
-#    contact   = "Contact"
-
-# Hero section
-[params.hero]
-    # To change the background of the hero section, replace the 'header.jpg' at './static/img' with your own.
-    slogan     = "Riding Bytes"
-    subtitle   = "International Coding Company"
-    buttonText = "Find out more"
-
-
-# About section
-[params.about]
-    headline    = "Coming Soon"
-    description = ""
-
-
-# Service section
-[params.services]
-    headline = "At your service"
-
-    [[params.services.list]]
-        icon = "fa-diamond"
-        title = "Consulting"
-        description = ""
-
-    [[params.services.list]]
-        icon = "fa-paper-plane"
-        title = "Development"
-        description = ""
-
-    [[params.services.list]]
-        icon = "fa-graduation-cap"
-        title = "More than 10 Years Experience"
-        description = ""
-
-    [[params.services.list]]
-        icon = "fa-heart"
-        title = "Made with Love"
-        description = ""
-
-
-# Portfolio modals
-[params.portfolio.modal]
-    client = "Client"
-    date = "Date"
-    category = "Category"
-    buttonText = "Close"
-
-# Aside section
-[params.aside]
-    headline = "Get the Creative Theme for Hugo"
-
-    [params.aside.button]
-        text = "Download now"
-        link = "//github.com/digitalcraftsman/hugo-creative-theme"
-
-# Contact section
-[params.contact]
-    headline = "Let's Get In Touch!"
-    description = "Ready to start your next project with us? That's great!"
-    phone = "123-456-6789"
+    # Since this template is static, the contact form uses www.formspree.io as a
+    # proxy. The form makes a POST request to their servers to send the actual
+    # email. Visitors can send up to a 1000 email each month for free.
+    #
+    # What you need to do for the setup?
+    #
+    # - set your email address under 'email' below
+    # - upload the generated site to your server
+    # - send a dummy email yourself to confirm your account
+    # - click the confirm link in the email from www.formspree.io
+    # - you're done. Happy mailing!
     email = "developer@ridingbytes.com"
-    linkedin = "ramonski"
-    github = "ridingbytes"
-    twitter = "ridingbytes"
+
+
+    # Navigation
+    [params.navigation]
+        brand = "Riding Bytes"
+        services = "Services"
+        portfolio = "Portfolio"
+        about = "About"
+        team = "Team"
+        contact = "Contact"
+
+
+    # Hero section
+    [params.hero]
+        # To change the background image of the hero, replace 'header-bg.jpg' in
+        # the 'static/img' folder.
+        title = "Riding Bytes"
+        subtitle = "International Coding Company"
+        buttonText = "Tell me more"
+
+
+    # Services section
+    [params.services]
+        title = "Services"
+        subtitle = "The Internet is our Riding Stable"
+
+        [[params.services.list]]
+            icon = "fa-rocket"
+            title = "Web Development"
+            description = "Next Generation Web Services"
+
+        [[params.services.list]]
+            icon = "fa-trophy"
+            title = "Consulting Services"
+            description = "Find the best Solutions"
+
+        [[params.services.list]]
+            icon = "fa-flask"
+            title = "Open Source"
+            description = "Ride on the Shoulders of Giants"
+
+
+    # Portfolio section
+    [params.portfolio]
+        # All projects defined in their own files. You can find example projects
+        # at 'examples/projects'. Copy the 'projects' folder into the 'data' directory
+        # at the root of this Hugo site.
+        # For more informtion take a look at the README.
+        title = "Portfolio"
+        subtitle = ""
+
+        [params.portfolio.modal]
+            client = "Client"
+            date = "Date"
+            category = "Category"
+            buttonText = "Close project"
+
+
+    # About section
+    [params.about]
+        title = "About"
+        subtitle = "Riding Bytes"
+        endpoint = "Heroes ride<br>into the<br>Sunset!"
+
+        # The events will be listed from the top to the bottom
+        # All images are stored under 'static/img/about'.
+        # Replace them with your own.
+        [[params.about.events]]
+            img = "1.jpg"
+            date = "2015"
+            title = "The Journey Begins"
+            description = "Saddle up the Horses! Riding Bytes is a Tech-Startup at the beginning of its Journey."
+
+
+    # Team section
+    [params.team]
+        title = "Our amazing team"
+        subtitle = "Potential is not a matter of size"
+        description = ""
+
+        # All team member pictures are stored under 'static/img/team'.
+        # Replace them with your own.
+        [[params.team.members]]
+            img = "1.jpg"
+            name = "Ramon Bartl"
+            position = "Owner & Coder"
+            social = [
+                ["fa-twitter", "https://twitter.com/ramonski"],
+                ["fa-linkedin", "https://www.linkedin.com/in/ramonski"],
+                ["fa-github", "https://github.com/ramonski"]
+            ]
+
+        [[params.team.members]]
+            img = "2.jpg"
+            name = "Lucky Luke"
+            position = "Byte Riding Horse"
+            social = [
+                ["fa-twitter", "https://twitter.com/ridingbytes"],
+                ["fa-linkedin", "https://www.linkedin.com/company/riding-bytes"],
+                ["fa-github", "https://github.com/ridingbytes"]
+            ]
+
+
+    # Client section
+    # All the clients' logos are stored under 'static/img/logos'.
+    # Replace them with your clients's logos.
+    #[[params.clients]]
+    #    logo = "envato.jpg"
+    #    link = "#"
+
+    #[[params.clients]]
+    #    logo = "designmodo.jpg"
+    #    link = "#"
+
+    #[[params.clients]]
+    #    logo = "themeforest.jpg"
+    #    link = "#"
+
+    #[[params.clients]]
+    #    logo = "creative-market.jpg"
+    #    link = "#"
+
+
+    # Contact section
+    [params.contact]
+        title = "Contact us"
+        subtitle  = ""
+        buttonText = "Send message"
+
+        # 'warning' defines error messages for invalid inputs
+        [params.contact.form.name]
+            text = "Your Name *"
+            warning = "Please enter your name."
+
+        [params.contact.form.email]
+            text = "Your Email *"
+            warning = "Please enter your email address."
+
+        [params.contact.form.phone]
+            text = "Your Phone *"
+            warning = "Please enter your phone number."
+
+        [params.contact.form.message]
+            text = "Your Message *"
+            warning = "Please enter a message."
+
+
+    # Footer section
+    [params.footer]
+        copyright = "Rinding Bytes 2015"
+
+        [[params.footer.social]]
+            icon = "fa-twitter"
+            link = "https://twitter.com/ridingbytes"
+
+        [[params.footer.social]]
+            icon = "fa-github"
+            link = "https://github.com/ridingbytes"
+
+        [[params.footer.social]]
+            icon = "fa-linkedin"
+            link = "https://www.linkedin.com/company/riding-bytes"
+
+        [[params.footer.quicklinks]]
+            text = "Impressum"
+            link = "#"
+
+        #[[params.footer.quicklinks]]
+        #    text = "Terms of Use"
+        #    link = "#"

@@ -1,0 +1,10 @@
+modalID: 1
+title: Plone JSON API
+subtitle: JSON API for the Plone CMS
+date: 2015-01-01
+img: plone-jsonapi.png
+preview: plone-jsonapi-preview.png
+client: Plone Community
+clientLink: "http://plone.org"
+category: API Development
+description: plone.jsonapi is a web interface to the Plone CMS. It allows developers to expose their content information over HTTP in the JSON format. It facilitates the integration of external web services with Plone.

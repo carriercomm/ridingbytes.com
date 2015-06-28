@@ -1,0 +1,10 @@
+modalID: 2
+title: Plone Explorer
+subtitle: Plone Explorer Application
+date: 2014-01-01
+img: plone-explorer.png
+preview: plone-explorer-preview.png
+client: Plone Community
+clientLink: "http://plone.org"
+category: Web Application Development
+description: "plone.explorer is a web based application to interact with the Plone CMS."
