@@ -7,4 +7,4 @@ preview: plone-explorer-preview.png
 client: Plone Community
 clientLink: "http://plone.org"
 category: Web Application Development
-description: "plone.explorer is a web based application to interact with the Plone CMS."
+description: "Plone Explorer is a web based application to interact with the Plone CMS over the JSON API. It is build on the powerful ExtJS Framework and combines the flexibility of a web application with the power of a native program."
