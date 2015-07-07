@@ -2,7 +2,7 @@
 baseurl = "http://www.ridingbytes.com/"
 languageCode = "en-us"
 title = "Riding Bytes"
-theme = "hugo-agency-theme"
+theme = "agency"
 
 
 [params]
@@ -120,7 +120,8 @@ theme = "hugo-agency-theme"
             social = [
                 ["fa-twitter", "https://twitter.com/ramonbartl"],
                 ["fa-linkedin", "https://www.linkedin.com/in/ramonski"],
-                ["fa-github", "https://github.com/ramonski"]
+                ["fa-github", "https://github.com/ramonski"],
+                ["fa-facebook", "https://www.facebook.com/ridingbytes"]
             ]
 
         [[params.team.members]]
@@ -130,7 +131,8 @@ theme = "hugo-agency-theme"
             social = [
                 ["fa-twitter", "https://twitter.com/ridingbytes"],
                 ["fa-linkedin", "https://www.linkedin.com/company/riding-bytes"],
-                ["fa-github", "https://github.com/ridingbytes"]
+                ["fa-github", "https://github.com/ridingbytes"],
+                ["fa-facebook", "https://www.facebook.com/ridingbytes.company"]
             ]
 
 
@@ -193,6 +195,10 @@ theme = "hugo-agency-theme"
         [[params.footer.social]]
             icon = "fa-linkedin"
             link = "https://www.linkedin.com/company/riding-bytes"
+
+        [[params.footer.social]]
+            icon = "fa-facebook"
+            link = "https://www.facebook.com/ridingbytes.company"
 
         [[params.footer.quicklinks]]
             text = "Imprint"
