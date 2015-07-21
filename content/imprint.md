@@ -7,6 +7,7 @@ title = "imprint"
 ## Angaben gemäß § 5 TMG
 
 Riding Bytes UG (haftungsbeschränkt)
+Handelsregister: Amtsgericht Ulm, HRB: 732278
 
 Einöde 49A
 
@@ -18,4 +19,4 @@ Ramon Bartl
 
 ## Kontakt
 
-E-Mail: info@ridingbytes.com
+E-Mail: hello@ridingbytes.com

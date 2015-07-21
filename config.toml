@@ -139,13 +139,18 @@ theme = "agency"
     # Client section
     # All the clients' logos are stored under 'static/img/logos'.
     # Replace them with your clients's logos.
-    #[[params.clients]]
-    #    logo = "envato.jpg"
-    #    link = "#"
+    [[params.clients]]
+        logo = "2degrees.jpg"
+        link = "http://www.2degreesmobile.co.nz"
 
-    #[[params.clients]]
-    #    logo = "designmodo.jpg"
-    #    link = "#"
+    [[params.clients]]
+        logo = "nexiles.png"
+        link = "http://www.nexiles.com"
+
+    [[params.clients]]
+        logo = "plone.png"
+        link = "http://www.plone.org"
+
 
     #[[params.clients]]
     #    logo = "themeforest.jpg"
