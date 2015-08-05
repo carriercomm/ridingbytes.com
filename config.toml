@@ -154,6 +154,10 @@ theme = "agency"
         link = "http://www.nexiles.com"
 
     [[params.clients]]
+        logo = "gletschercola.jpg"
+        link = "http://www.gletschercola.de"
+
+    [[params.clients]]
         logo = "plone.png"
         link = "http://www.plone.org"
 
