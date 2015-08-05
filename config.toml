@@ -104,6 +104,12 @@ theme = "agency"
             title = "The Journey Begins"
             description = "Saddle up the Horses! Riding Bytes is a Tech-Startup at the beginning of its Journey."
 
+        [[params.about.events]]
+            img = "2.jpg"
+            date = "July 2015"
+            title = "World Wide Software Solutions"
+            description = "Riding Bytes goes New Zealand! We offer great software solutions and services world wide."
+
 
     # Team section
     [params.team]
