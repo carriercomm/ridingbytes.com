@@ -80,13 +80,13 @@ theme = "agency"
         # at the root of this Hugo site.
         # For more informtion take a look at the README.
         title = "Portfolio"
-        subtitle = ""
+        subtitle = "Ride Free with Open Source Solutions"
 
         [params.portfolio.modal]
             client = "Client"
             date = "Date"
             category = "Category"
-            buttonText = "Close project"
+            buttonText = "Close"
 
 
     # About section
