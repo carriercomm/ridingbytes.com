@@ -110,6 +110,12 @@ theme = "agency"
             title = "World Wide Software Solutions"
             description = "Riding Bytes goes New Zealand! We offer great software solutions and services world wide."
 
+        [[params.about.events]]
+            img = "3.jpg"
+            date = "September 2015"
+            title = "Plone Commander"
+            description = "Release of <a href='https://github.com/ridingbytes/plone.commander/releases'>Plone Commander</a> - A Cross Platform Application to handle Plone Contents with Ease!"
+
 
     # Team section
     [params.team]
@@ -127,7 +133,7 @@ theme = "agency"
                 ["fa-twitter", "https://twitter.com/ramonbartl"],
                 ["fa-linkedin", "https://www.linkedin.com/in/ramonski"],
                 ["fa-github", "https://github.com/ramonski"],
-                ["fa-facebook", "https://www.facebook.com/ridingbytes"]
+                ["fa-facebook", "https://www.facebook.com/ramonbartl"]
             ]
 
         [[params.team.members]]
@@ -138,7 +144,7 @@ theme = "agency"
                 ["fa-twitter", "https://twitter.com/ridingbytes"],
                 ["fa-linkedin", "https://www.linkedin.com/company/riding-bytes"],
                 ["fa-github", "https://github.com/ridingbytes"],
-                ["fa-facebook", "https://www.facebook.com/ridingbytes.company"]
+                ["fa-facebook", "https://www.facebook.com/ridingbytes"]
             ]
 
 
@@ -213,7 +219,7 @@ theme = "agency"
 
         [[params.footer.social]]
             icon = "fa-facebook"
-            link = "https://www.facebook.com/ridingbytes.company"
+            link = "https://www.facebook.com/ridingbytes"
 
         [[params.footer.quicklinks]]
             text = "Imprint"
